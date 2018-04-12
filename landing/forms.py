@@ -6,7 +6,7 @@ class SubscriberForm(forms.Form):
     email = forms.EmailField(
         widget=forms.TextInput(
             attrs={'type': 'email',
-                   'placeholder': 'ВВедите Ваш email ...'
+                   'placeholder': 'Введите Ваш email ...'
             }
         )
     )
