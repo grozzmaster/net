@@ -1,24 +1,25 @@
-# Follow [the link](http://grozzmaster.pythonanywhere.com) to see it in action!
+## Follow [the link](http://grozzmaster.pythonanywhere.com) to see it in action!
 
-## How to deploy it (for example, on your local machine):
+### How to deploy it (for example, on your local machine):
 
-### First of all, clone this repository:
+#### First of all, clone this repository:
 cd /your/preferred/path
+
 git clone https://github.com/grozzmaster/net.git
 
-### Create a new virtual environment
+#### Create a new virtual environment
 virtualenv --python=python3.6 shopenv
 
-### Activate the environment
+#### Activate the environment
 source shopenv/bin/activate
 
-### Install required dependencies
+#### Install required dependencies
 pip install -r /path/to/requirements.txt
 
-### Run test server
+#### Run test server
 python net/manage.py runserver
 
-### Check localhost:8000 in your browser
+#### Check localhost:8000 in your browser
 And get fun!
 
 
