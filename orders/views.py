@@ -85,6 +85,7 @@ def checkout(request):
                         total_price=product_in_basket.total_price,
                         order=order)
 
+        ProductInBasket.objects.filter(session_key=session_key).delete()
         return redirect('order_saved/')
     return render(request, 'orders/checkout.html', locals())
 
