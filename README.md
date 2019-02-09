@@ -5,7 +5,7 @@
 #### First of all, clone this repository:
 $ cd </your/preferred/path>
 
-$ git clone https://github.com/grozzmaster/net.git
+$ git clone https://github.com/codepictor/net.git
 
 #### Create a new virtual environment
 $ virtualenv --python=python3.6 shopenv
