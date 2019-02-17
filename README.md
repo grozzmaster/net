@@ -1,6 +1,6 @@
-### How to deploy it (on a Linux machine):
+## How to deploy it (on a Linux machine):
 
-First of all, clone this repository:
+Clone this repository:
 
     git clone https://github.com/codepictor/net.git
     cd net/
